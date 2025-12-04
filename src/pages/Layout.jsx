@@ -197,7 +197,7 @@ export default function Layout({ children, currentPageName }) {
                                 </div>
                                 <p className="text-gray-400 text-sm leading-relaxed mb-6">
                                   We work to advance human rights, equality, and social justice through
-                                  awareness, innovation, and community empowerment.
+                                  awareness, innovation, and community 
                                 </p>
                                  
                               </div>
