@@ -197,7 +197,7 @@ export default function Layout({ children, currentPageName }) {
                                 </div>
                                 <p className="text-gray-400 text-sm leading-relaxed mb-6">
                                   We work to advance human rights, equality, and social justice through
-                                  awareness, innovation, and community 
+                                  awareness, innovation, and community empowerment.
                                 </p>
                                  
                               </div>
@@ -266,37 +266,57 @@ export default function Layout({ children, currentPageName }) {
                                   </div>
             </div>
 
-            {/* Section 4: Address & Contact */}
-                              <div>
-                                <h4 className="text-lg font-bold mb-4 text-white relative inline-block">
-                                  Contact Us
-                                  <span className="absolute -bottom-1 left-0 w-8 h-0.5 bg-gradient-to-r from-teal-400 to-emerald-400 rounded-full"></span>
-                                </h4>
-                                <div className="space-y-4 text-sm mt-6">
-                                  <div className="flex items-start gap-3">
-                                    <div className="w-8 h-8 bg-teal-500/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
-                                      <span className="text-teal-400 text-xs">📍</span>
-                                    </div>
-                                    <p className="text-gray-400 leading-relaxed">
-                                      B/601, B Wing, Runwal Elina<br />
-                                      Cts No.687/1 to 6, Mehra Compound<br />
-                                      Kurla West, Mumbai<br />
-                                      Maharashtra – 400072
-                                    </p>
-                                  </div>
-                                  <div className="flex items-center gap-3">
-                                    <div className="w-8 h-8 bg-teal-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                                      <span className="text-teal-400 text-xs">✉️</span>
-                                    </div>
-                                    <a
-                                      href="mailto:info@ennoblesocial.org"
-                                      className="text-teal-400 hover:text-teal-300 transition-colors"
-                                    >
-                                      info@ennoblesocial.org
-                                    </a>
-                                  </div>
-                                </div>
-                              </div>
+{/* Section 4: Address & Contact */}
+<div>
+  <h4 className="text-lg font-bold mb-4 text-white relative inline-block">
+    Contact Us
+    <span className="absolute -bottom-1 left-0 w-8 h-0.5 bg-gradient-to-r from-teal-400 to-emerald-400 rounded-full"></span>
+  </h4>
+
+  <div className="space-y-4 text-sm mt-6">
+
+    {/* Address */}
+    <div className="flex items-start gap-3">
+      <div className="w-8 h-8 bg-teal-500/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+        <span className="text-teal-400 text-xs">📍</span>
+      </div>
+      <p className="text-gray-400 leading-relaxed">
+        B/601, B Wing, Runwal Elina<br />
+        Cts No.687/1 to 6, Mehra Compound<br />
+        Kurla West, Mumbai<br />
+        Maharashtra – 400072
+      </p>
+    </div>
+
+    {/* Email */}
+    <div className="flex items-center gap-3">
+      <div className="w-8 h-8 bg-teal-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
+        <span className="text-teal-400 text-xs">✉️</span>
+      </div>
+      <a
+        href="mailto:info@ennoblesocial.org"
+        className="text-teal-400 hover:text-teal-300 transition-colors"
+      >
+        info@ennoblesocial.org
+      </a>
+    </div>
+
+    {/* 📞 Phone Number (ADDED) */}
+    <div className="flex items-center gap-3">
+      <div className="w-8 h-8 bg-teal-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
+        <span className="text-teal-400 text-xs">📞</span>
+      </div>
+      <a
+        href="tel:+919876543210"
+        className="text-teal-400 hover:text-teal-300 transition-colors"
+      >
+        +91 98765 43210
+      </a>
+    </div>
+
+  </div>
+</div>
+
           </div>
 
           {/* Bottom Copyright */}
